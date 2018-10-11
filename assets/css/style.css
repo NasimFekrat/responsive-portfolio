@@ -4,7 +4,7 @@ html{
     height: 100%;
 }
 body{
-    background: url("gravel.png") no-repeat center center fixed;
+    background: url("../images/leaves-pattern.png") no-repeat center center fixed;
     background-size: cover;
     padding: 0;
     margin: 0;
@@ -54,7 +54,8 @@ li a {
     margin: 40px auto;
     color: #777777;
     background-color: #ffffff;
-    padding: 50px; 
+    padding: 50px;
+    overflow: hidden; 
 }
 .main h1{
     color: #4aaaa5;
@@ -69,36 +70,6 @@ li a {
     margin: 0px;
     padding: 0px;
 }
-table{
-    width: 100%;
-    height: 100%;
-    margin: 20px 0px;
-    padding: 0px;    
-}
-td{
-    width: 33%;
-    height: 300px;
-    position: relative;
-}
-.imgGallery{
-    width: 100%;
-    height: 100%;
-    padding: 0px;
-}
-a:hover, .imgText:hover, .imgGallery:hover{
-    opacity: 0.5;
-}
-.imgText{
-    position: absolute;
-    bottom: 50px;
-    left: 3px;
-    text-align: center;
-    color: #ffffff;
-    background-color: #4aaaa5;
-    width: 92%;
-    padding: 10px;
-    margin: 0px;
-}
 #main{
     margin: 20px;
     min-height: 100%;
@@ -108,18 +79,51 @@ a:hover, .imgText:hover, .imgGallery:hover{
     float: right;
     min-height: 100%;
 }
-/*.imgContainer{
-    position: relative;
+.container{
+    margin: 20px 0px;
+    padding: 0px;
+    width: 100%;
 }
-.imgTextContainer{
-    position: absolute;
-    bottom: 8px;
-    color: #ffffff;
+.figGallery{
+    margin: 0px;
+    padding: 0px;
+    width: 49%;
+    height: 49%;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+.imgGallery{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    border-radius: 2.5%;
+    border: 2px solid #cccccc;
+}
+.imgText{
+    color: white;
     background-color: #4aaaa5;
-    width: 30%;
-    padding: 10px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     text-align: center;
-}*/
+    width: 100%;
+    display: block;
+    position: absolute;
+    bottom: 15%;
+    padding: 20px;
+    font-size: 16px;
+}
+.textClass{
+    color: white;
+    background-color: #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+    width: 100%;
+}
+.floating{
+    float: right;
+}
 form{
     padding: 20px 0px;
 }
@@ -156,7 +160,7 @@ footer{
         height: 100%;
     }
     body{
-        background: url("gravel.png") no-repeat center center fixed;
+        background: url("../images/leaves-pattern.png") no-repeat center center fixed;
         background-size: cover;
         padding: 0;
         margin: 0;
@@ -206,7 +210,8 @@ footer{
         margin: 40px auto;
         color: #777777;
         background-color: #ffffff;
-        padding: 50px; 
+        padding: 50px;
+        overflow: hidden; 
     }
     .main h1{
         color: #4aaaa5;
@@ -221,36 +226,6 @@ footer{
         margin: 0px;
         padding: 0px;
     }
-    table{
-        width: 100%;
-        height: 100%;
-        margin: 20px 0px;
-        padding: 0px;    
-    }
-    td{
-        width: 33%;
-        height: 300px;
-        position: relative;
-    }
-    .imgGallery{
-        width: 100%;
-        height: 100%;
-        padding: 0px;
-    }
-    a:hover, .imgText:hover, .imgGallery:hover{
-        opacity: 0.5;
-    }
-    .imgText{
-        position: absolute;
-        bottom: 50px;
-        left: 3px;
-        text-align: center;
-        color: #ffffff;
-        background-color: #4aaaa5;
-        width: 92%;
-        padding: 10px;
-        margin: 0px;
-    }
     #main{
         margin: 20px;
         min-height: 100%;
@@ -260,18 +235,51 @@ footer{
         float: right;
         min-height: 100%;
     }
-    /*.imgContainer{
-        position: relative;
+    .container{
+        margin: 20px 0px;
+        padding: 0px;
+        width: 100%;
     }
-    .imgTextContainer{
-        position: absolute;
-        bottom: 8px;
-        color: #ffffff;
+    .figGallery{
+        margin: 0px;
+        padding: 0px;
+        width: 49%;
+        height: 49%;
+        position: relative;
+        display: inline-block;
+        overflow: hidden;
+    }
+    .imgGallery{
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        display: block;
+        border-radius: 2.5%;
+        border: 2px solid #cccccc;
+    }
+    .imgText{
+        color: white;
         background-color: #4aaaa5;
-        width: 30%;
-        padding: 10px;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
         text-align: center;
-    }*/
+        width: 100%;
+        display: block;
+        position: absolute;
+        bottom: 15%;
+        padding: 20px;
+        font-size: 16px;
+    }
+    .textClass{
+        color: white;
+        background-color: #4aaaa5;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        text-align: center;
+        width: 100%;
+    }
+    .floating{
+        float: right;
+    }
     form{
         padding: 20px 0px;
     }
@@ -309,7 +317,7 @@ footer{
     height: 100%;
 }
 body{
-    background: url("gravel.png") no-repeat center center fixed;
+    background: url("../images/leaves-pattern.png") no-repeat center center fixed;
     background-size: cover;
     padding: 0;
     margin: 0;
@@ -359,7 +367,8 @@ li a {
     margin: 20px auto;
     color: #777777;
     background-color: #ffffff;
-    padding: 25px; 
+    padding: 25px;
+    overflow: hidden; 
 }
 .main h1{
     color: #4aaaa5;
@@ -374,36 +383,6 @@ li a {
     margin: 0px;
     padding: 0px;
 }
-table{
-    width: 100%;
-    height: 100%;
-    margin: 10px 0px;
-    padding: 0px;    
-}
-td{
-    width: 33%;
-    height: 150px;
-    position: relative;
-}
-.imgGallery{
-    width: 100%;
-    height: 100%;
-    padding: 0px;
-}
-a:hover, .imgText:hover, .imgGallery:hover{
-    opacity: 0.5;
-}
-.imgText{
-    position: absolute;
-    bottom: 25px;
-    left: 2px;
-    text-align: center;
-    color: #ffffff;
-    background-color: #4aaaa5;
-    width: 92%;
-    padding: 10px;
-    margin: 0px;
-}
 #main{
     margin: 10px;
     min-height: 100%;
@@ -412,6 +391,51 @@ a:hover, .imgText:hover, .imgGallery:hover{
     width: 60%;
     float: right;
     min-height: 100%;
+}
+.container{
+    margin: 20px 0px;
+    padding: 0px;
+    width: 100%;
+}
+.figGallery{
+    margin: 0px;
+    padding: 0px;
+    width: 49%;
+    height: 49%;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+.imgGallery{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    border-radius: 2.5%;
+    border: 2px solid #cccccc;
+}
+.imgText{
+    color: white;
+    background-color: #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+    width: 100%;
+    display: block;
+    position: absolute;
+    bottom: 15%;
+    padding: 20px;
+    font-size: 16px;
+}
+.textClass{
+    color: white;
+    background-color: #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+    width: 100%;
+}
+.floating{
+    float: right;
 }
 form{
     padding: 10px 0px;
@@ -450,7 +474,7 @@ footer{
         height: 100%;
     }
     body{
-        background: url("gravel.png") no-repeat center center fixed;
+        background: url("../images/leaves-pattern.png") no-repeat center center fixed;
         background-size: cover;
         padding: 0;
         margin: 0;
@@ -493,7 +517,8 @@ footer{
         margin: 40px auto;
         color: #777777;
         background-color: #ffffff;
-        padding: 50px; 
+        padding: 50px;
+        overflow: hidden; 
     }
     .main h1{
         color: #4aaaa5;
@@ -522,37 +547,51 @@ footer{
         text-align: justify;
         width: 100%;
     }
-    table{
+    .container{
+        margin: 20px 0px;
+        padding: 0px;
         width: 100%;
-        height: 100%;
-        margin: 0px;
-        padding: 0px;    
     }
-    td{
-        width: 300px;
-        height: 300px;
+    .figGallery{
+        margin: 0px;
+        padding: 0px;
+        width: 49%;
+        height: 49%;
         position: relative;
+        display: inline-block;
+        overflow: hidden;
     }
     .imgGallery{
         width: 100%;
         height: 100%;
+        margin: 0px;
         padding: 0px;
-    }
-    a:hover, .imgText:hover, .imgGallery:hover{
-        opacity: 0.5;
+        display: block;
+        border-radius: 2.5%;
+        border: 2px solid #cccccc;
     }
     .imgText{
-        position: absolute;
-        bottom: 50px;
-        left: 3px;
-        text-align: center;
-        color: #ffffff;
+        color: white;
         background-color: #4aaaa5;
-        width: 92%;
-        padding: 10px;
-        margin: 0px;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        text-align: center;
+        width: 100%;
+        display: block;
+        position: absolute;
+        bottom: 15%;
+        padding: 20px;
+        font-size: 16px;
     }
-    
+    .textClass{
+        color: white;
+        background-color: #4aaaa5;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        text-align: center;
+        width: 100%;
+    }
+    .floating{
+        float: right;
+    }
     form{
         padding: 20px 0px;
     }
